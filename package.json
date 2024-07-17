@@ -1,4 +1,5 @@
 {
+  "homepage": "https://dzikri7.github.io/e-commerce/",
   "name": "ecommerce-proyek",
   "version": "1.0.0",
   "description": "ecommerce rest api",
@@ -30,5 +31,8 @@
     "nodemon": "^3.1.0",
     "react-icons": "^4.7.1",
     "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
