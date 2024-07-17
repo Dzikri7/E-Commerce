@@ -1,0 +1,47 @@
+/* CartStyles.css */
+
+/* General styling for the cart page */
+.cart-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Styling for the greeting container */
+.greeting-container {
+  margin-top: 50px; /* Adjust this value as needed */
+  margin-bottom: 0px; /* Added margin bottom to reduce the gap */
+  text-align: center;
+}
+
+/* Styling for the cart items container */
+.cart-page .container {
+  margin-top: 20px;
+}
+
+/* Styling for each cart item card */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Adjust the height of the cart items container */
+.col-md-7 {
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+/* Adjust the height of the cart summary */
+.col-md-5 {
+  position: sticky;
+  top: 20px;
+}
+
+/* Styling for the cart summary section */
+.cart-summary {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center; /* Center align the text */
+}

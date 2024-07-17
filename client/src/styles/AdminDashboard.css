@@ -1,0 +1,26 @@
+/* AdminDashboard.css */
+.bg-gradient-primary {
+    background: linear-gradient(
+      90deg,
+      rgba(33, 150, 243, 1) 0%,
+      rgba(0, 188, 212, 1) 100%
+    );
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+  
+  .rounded-3 {
+    border-radius: 1rem !important;
+  }
+  
+  .rounded-top {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+  }
+  
+  .dashboard .card {
+    margin: auto;
+  }
+  

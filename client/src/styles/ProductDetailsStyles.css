@@ -1,0 +1,88 @@
+.product-details {
+  padding: 60px 0; /* Add padding for top and bottom */
+  margin-top: 60px; /* Add top margin to push the content down */
+}
+
+.product-details img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.product-details-info h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-details-info p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.similar-products {
+  padding: 30px 0;
+}
+
+.similar-products h4 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.similar-products .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.similar-products .card:hover {
+  transform: translateY(-5px);
+}
+
+.similar-products .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.similar-products .card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.similar-products .card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.similar-products .card-price {
+  color: #ff6347;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.similar-products .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.similar-products .btn-info {
+  margin-top: auto;
+}

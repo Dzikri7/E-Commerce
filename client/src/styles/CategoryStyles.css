@@ -1,0 +1,33 @@
+.container {
+    margin-top: 100px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    padding: 20px;
+    cursor: pointer;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .cat-btn {
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+  }
+  
+  .row.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
