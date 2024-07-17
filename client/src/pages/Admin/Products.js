@@ -12,7 +12,7 @@ const Products = () => {
   // Get all products
   const getAllProducts = async () => {
     try {
-      const { data } = await axios.get("/api/v1/product/get-product");
+      const { data } = await axios.get("http://localhost:8080/api/v1/product/get-product");
       setProducts(data.products);
     } catch (error) {
       console.log(error);
@@ -42,7 +42,7 @@ const Products = () => {
               >
                 <div className="card m-2 product-card shadow-sm border-0">
                   <img
-                    src={`/api/v1/product/product-photo/${p._id}`}
+                    src={`http://localhost:8080/api/v1/product/product-photo/${p._id}`}
                     className="card-img-top product-img"
                     alt={p.name}
                   />

@@ -20,7 +20,7 @@ const ProductDetails = () => {
   const getProduct = async () => {
     try {
       const { data } = await axios.get(
-        `/api/v1/product/get-product/${params.slug}`
+        `http://localhost:8080/api/v1/product/get-product/${params.slug}`
       );
       setProduct(data?.product);
       getSimilarProduct(data?.product._id, data?.product.category._id);
@@ -32,7 +32,7 @@ const ProductDetails = () => {
   const getSimilarProduct = async (pid, cid) => {
     try {
       const { data } = await axios.get(
-        `/api/v1/product/related-product/${pid}/${cid}`
+        `http://localhost:8080/api/v1/product/related-product/${pid}/${cid}`
       );
       setRelatedProducts(data?.products);
     } catch (error) {
@@ -46,7 +46,7 @@ const ProductDetails = () => {
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center align-items-center">
             <img
-              src={`/api/v1/product/product-photo/${product._id}`}
+              src={`http://localhost:8080/api/v1/product/product-photo/${product._id}`}
               className="img-fluid"
               alt={product.name}
             />
@@ -88,7 +88,7 @@ const ProductDetails = () => {
               <div className="col-md-4" key={p._id}>
                 <div className="card mb-4">
                   <img
-                    src={`/api/v1/product/product-photo/${p._id}`}
+                    src={`http://localhost:8080/api/v1/product/product-photo/${p._id}`}
                     className="card-img-top"
                     alt={p.name}
                   />

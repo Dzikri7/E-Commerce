@@ -26,7 +26,7 @@ const Search = () => {
             {values?.results.map((p) => (
               <div className={`card m-2 ${styles.card}`} key={p._id}>
                 <img
-                  src={`/api/v1/product/product-photo/${p._id}`}
+                  src={`http://localhost:8080/api/v1/product/product-photo/${p._id}`}
                   className={`card-img-top ${styles.cardImgTop}`}
                   alt={p.name}
                 />
